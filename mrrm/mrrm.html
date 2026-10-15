@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MRRM is a community-driven rainfall and river monitoring initiative by the Meenachil River Protection Council and Bhoomika.">
+    <title>MRRM — Meenachil River &amp; Rain Monitoring | Bhoomika</title>
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        :root{--mrrm-primary:var(--primary);--mrrm-deep:var(--dark);--mrrm-mint:var(--light);--mrrm-ink:var(--secondary)}
+        html{scroll-behavior:smooth;scroll-padding-top:90px}
+        body{color:var(--mrrm-ink)}
+        .mrrm-brand{font-family:Jost,sans-serif;color:var(--mrrm-deep);font-weight:700;letter-spacing:-.04em}
+        .mrrm-hero{position:relative;overflow:hidden;background-image:linear-gradient(125deg,rgba(15,66,41,.88) 0%,rgba(52,142,56,.78) 58%,rgba(52,142,56,.62) 100%),url("img/rain.jpg");background-size:cover;background-position:center;color:#fff}
+        .mrrm-hero:after{content:"";position:absolute;width:36rem;height:36rem;border:1px solid rgba(255,255,255,.15);border-radius:50%;right:-10rem;top:-17rem;box-shadow:0 0 0 3rem rgba(255,255,255,.04),0 0 0 7rem rgba(255,255,255,.035)}
+        .mrrm-hero-content{position:relative;z-index:1;padding-top:5.5rem;padding-bottom:5.5rem}
+        .mrrm-kicker{letter-spacing:.12em;text-transform:uppercase;font-size:.83rem;font-weight:700}
+        .mrrm-hero h1{max-width:850px;line-height:1.08}
+        .mrrm-hero .lead{max-width:760px;line-height:1.75}
+        .mrrm-hero-icon{width:76px;height:76px;border-radius:22px;display:grid;place-items:center;background:rgba(255,255,255,.13);font-size:2rem;margin-bottom:1.5rem}
+        .mrrm-subnav{border-bottom:1px solid #e5ecec;background:#fff}
+        .mrrm-subnav a{font-weight:600;color:#465B4D;padding:.95rem 1rem;display:inline-block;text-decoration:none}
+        .mrrm-subnav a:hover,.mrrm-subnav a:focus{color:var(--mrrm-primary)}
+        .mrrm-section{padding-top:5rem;padding-bottom:5rem}
+        .mrrm-section-kicker{font-weight:700;color:var(--mrrm-primary);letter-spacing:.08em;text-transform:uppercase;font-size:.85rem}
+        .mrrm-copy{font-size:1.04rem;line-height:1.85;color:var(--secondary)}
+        .mrrm-info-card{height:100%;padding:1.75rem;border:1px solid #e7eeee;border-radius:1rem;background:#fff;box-shadow:0 8px 30px rgba(19,63,76,.055)}
+        .mrrm-info-card .icon{width:52px;height:52px;border-radius:16px;background:var(--mrrm-mint);color:var(--mrrm-primary);display:grid;place-items:center;font-size:1.3rem;margin-bottom:1.2rem}
+        .mrrm-mission-item{display:flex;gap:1rem;padding:1.1rem 0;border-bottom:1px solid rgba(255,255,255,.15)}
+        .mrrm-mission-item:last-child{border-bottom:0;padding-bottom:0}
+        .mrrm-mission-item .icon{flex:0 0 40px;height:40px;border-radius:12px;background:rgba(255,255,255,.13);display:grid;place-items:center;color:#D5EFD5}
+        .mrrm-vision{height:100%;border-radius:1.25rem;background:var(--mrrm-mint);padding:2.25rem}
+        .mrrm-mission{height:100%;border-radius:1.25rem;background:var(--mrrm-deep);color:#fff;padding:2.25rem}
+        .mrrm-mission h2,.mrrm-mission h3{color:#fff}
+        .mrrm-commitment{border-radius:1.25rem;background:linear-gradient(115deg,#eaf5f1,#f4f8fa);padding:2.5rem}
+        .mrrm-video-frame{position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:1rem;background:#0F4229;box-shadow:0 8px 30px rgba(15,66,41,.12)}
+        .mrrm-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+        @media(max-width:767.98px){.mrrm-hero-content{padding-top:4rem;padding-bottom:4rem}.mrrm-section{padding-top:3.5rem;padding-bottom:3.5rem}.mrrm-subnav{overflow-x:auto;white-space:nowrap}.mrrm-subnav a{padding:.8rem .65rem;font-size:.9rem}}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0" aria-label="Main navigation">
+        <a href="../index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5"><span class="h1 m-0 mrrm-brand">BHOOMIKA</span></a>
+        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="mainNavigation"><div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="../index.html" class="nav-item nav-link">Home</a>
+            <a href="../about.html" class="nav-item nav-link">About</a>
+            <a href="../service.html" class="nav-item nav-link">Our Initiatives</a>
+            <a href="../contact.html" class="nav-item nav-link">Contact</a>
+        </div></div>
+    </nav>
+    <header class="mrrm-hero">
+        <div class="container mrrm-hero-content">
+            <div class="mrrm-hero-icon" aria-hidden="true"><i class="fas fa-cloud-rain"></i></div>
+            <p class="mrrm-kicker text-white-50 mb-3">A joint initiative of the Meenachil River Protection Council and Bhoomika · Established 2018</p>
+            <h1 class="display-2 fw-bold mb-4">MRRM — Meenachil River &amp; Rain Monitoring</h1>
+            <p class="lead mb-4">Community-powered observations, local knowledge, and digital tools for understanding rainfall and river conditions.</p>
+            <a href="#about-mrrm" class="btn btn-light py-3 px-4">Discover MRRM <i class="fa fa-arrow-down ms-2" aria-hidden="true"></i></a>
+            <a href="https://mrrm.vercel.app/" class="btn btn-outline-light py-3 px-4 ms-sm-2 mt-2 mt-sm-0" target="_blank" rel="noopener noreferrer">Open MRRM Web App <i class="fas fa-external-link-alt ms-2" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <nav class="mrrm-subnav" aria-label="On this page"><div class="container">
+        <a href="#about-mrrm">About</a><a href="#vision-mission">Vision &amp; mission</a><a href="#mrrm-videos">Videos</a><a href="#approach">Our approach</a><a href="#commitment">Our commitment</a>
+    </div></nav>
+    <main>
+        <section id="about-mrrm" class="container mrrm-section">
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-4"><p class="mrrm-section-kicker mb-2">About MRRM</p><h2 class="display-5 mb-3">Connecting people, places, and environmental knowledge</h2><p class="text-muted mb-0">A community-driven monitoring initiative, established in 2018.</p></div>
+                <div class="col-lg-8 mrrm-copy">
+                    <p><strong>Meenachil River &amp; Rain Monitoring (MRRM)</strong> is a community-driven environmental monitoring initiative established in 2018 as a joint initiative of the <strong>Meenachil River Protection Council and Bhoomika</strong>.</p>
+                    <p>MRRM was established with a shared commitment to understanding rainfall patterns, monitoring river conditions, and strengthening community preparedness for weather-related challenges. By bringing together environmental awareness, local knowledge, systematic observation, and scientific research, the initiative seeks to build a better understanding of the relationship between rainfall, rivers, and the communities that depend on them.</p>
+                    <p>Through the active participation of local communities and volunteers, MRRM supports the collection and study of rainfall and river-level observations across different locations. These observations help build a valuable record of local environmental conditions, supporting researchers, environmental organisations, and communities in understanding changing weather patterns and their potential impacts.</p>
+                    <p>Recognising the importance of accessible and reliable information, MRRM has also embraced digitalisation through a dedicated web application that helps organise, maintain, and present collected observations. The GeoFinder application further supports geographical studies by helping identify locations accurately and obtain latitude and longitude coordinates, improving the geographical understanding of environmental observations.</p>
+                    <p class="mb-0">At its heart, MRRM is about more than monitoring rainfall. It is about connecting people, knowledge, and environmental information to encourage informed decisions, strengthen preparedness, and contribute to the long-term protection of our rivers and natural resources.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mrrm-videos" class="container-fluid py-5" style="background:#f6f9f8">
+            <div class="container py-lg-3">
+                <div class="text-center mx-auto mb-5" style="max-width:680px">
+                    <p class="mrrm-section-kicker mb-2">Watch</p>
+                    <h2 class="display-5 mb-3">MRRM Videos</h2>
+                    <p class="mrrm-copy mb-0">Explore MRRM’s community environmental monitoring work.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6"><article class="h-100"><div class="mrrm-video-frame"><iframe src="https://www.youtube.com/embed/4_EG6Q5xy0g" title="MRRM video 1" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></article></div>
+                    <div class="col-lg-6"><article class="h-100"><div class="mrrm-video-frame"><iframe src="https://www.youtube.com/embed/2a0NhDSRpWE" title="MRRM video 2" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></article></div>
+                </div>
+            </div>
+        </section>
+        <section id="vision-mission" class="container-fluid py-5" style="background:#f6f9f8">
+            <div class="container py-lg-3"><div class="row g-4 align-items-stretch">
+                <div class="col-lg-5"><article class="mrrm-vision"><p class="mrrm-section-kicker mb-2">Our Vision</p><h2 class="display-6 mb-4">A well-informed, resilient community</h2><p class="mrrm-copy mb-0">To build a well-informed, environmentally conscious and resilient community where reliable rainfall and river observations contribute to the protection of water resources, improved preparedness for natural hazards, and a sustainable future for generations to come.</p></article></div>
+                <div class="col-lg-7"><article class="mrrm-mission"><p class="mrrm-kicker" style="color:#D5EFD5">Our Mission</p><h2 class="display-6 mb-3">What MRRM works towards</h2>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-cloud-rain" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Monitor and understand</h3><p class="mb-0 text-white-50">Encourage systematic observation of rainfall and river levels to better understand local weather patterns and changing environmental conditions.</p></div></div>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-users" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Empower communities</h3><p class="mb-0 text-white-50">Encourage community participation and volunteer engagement, fostering shared responsibility for rivers and natural resources.</p></div></div>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-book-open" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Support research and awareness</h3><p class="mb-0 text-white-50">Make organised observations useful to researchers, environmental organisations, and communities studying rainfall, river behaviour, and related risks.</p></div></div>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-laptop" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Embrace digital innovation</h3><p class="mb-0 text-white-50">Use accessible digital tools to organise, preserve, and share environmental observations.</p></div></div>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Strengthen geographical understanding</h3><p class="mb-0 text-white-50">Use GeoFinder to support accurate location identification and relate environmental observations to specific places.</p></div></div>
+                    <div class="mrrm-mission-item"><span class="icon"><i class="fas fa-leaf" aria-hidden="true"></i></span><div><h3 class="h5 mb-1">Promote preparedness and conservation</h3><p class="mb-0 text-white-50">Contribute to awareness of weather-related risks, informed decisions, and responsible protection of rivers and surrounding environments.</p></div></div>
+                </article></div>
+            </div></div>
+        </section>
+        <section id="approach" class="container mrrm-section">
+            <div class="text-center mx-auto mb-5" style="max-width:680px"><p class="mrrm-section-kicker mb-2">Our Approach</p><h2 class="display-5 mb-3">Four parts of community monitoring</h2><p class="mrrm-copy mb-0">MRRM connects local participation with systematic observation, useful digital tools, and care for the environment.</p></div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3"><article class="mrrm-info-card"><div class="icon"><i class="fas fa-people-carry" aria-hidden="true"></i></div><h3 class="h4">Community participation</h3><p class="mb-0 text-muted">We value local volunteers and communities observing environmental conditions and building a shared understanding of rainfall and river behaviour.</p></article></div>
+                <div class="col-md-6 col-lg-3"><article class="mrrm-info-card"><div class="icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div><h3 class="h4">Observation and research</h3><p class="mb-0 text-muted">We encourage systematic data collection and the study of local weather and river conditions to support environmental understanding and research.</p></article></div>
+                <div class="col-md-6 col-lg-3"><article class="mrrm-info-card"><div class="icon"><i class="fas fa-digital-tachograph" aria-hidden="true"></i></div><h3 class="h4">Digital transformation</h3><p class="mb-0 text-muted">Our web application helps organise and present observations, while GeoFinder supports location identification and geographical studies.</p></article></div>
+                <div class="col-md-6 col-lg-3"><article class="mrrm-info-card"><div class="icon"><i class="fas fa-water" aria-hidden="true"></i></div><h3 class="h4">Environmental responsibility</h3><p class="mb-0 text-muted">We encourage informed community action, environmental awareness, and the long-term protection of rivers and water resources.</p></article></div>
+            </div>
+        </section>
+        <section id="commitment" class="container pb-5 mb-4">
+            <div class="mrrm-commitment row g-4 align-items-center"><div class="col-lg-2 text-center"><div class="mrrm-hero-icon mx-auto mb-0" style="background:var(--light);color:var(--primary)"><i class="fas fa-hands-helping" aria-hidden="true"></i></div></div><div class="col-lg-10"><p class="mrrm-section-kicker mb-2">Our Commitment</p><h2 class="display-6 mb-3">Understanding our environment is a step towards protecting it</h2><p class="mrrm-copy mb-0">By combining community participation, environmental observation, research, and digital innovation, MRRM strives to contribute meaningfully to the study of rainfall and river conditions. As a joint initiative of the Meenachil River Protection Council and Bhoomika, we remain committed to environmental awareness, knowledge-sharing, and helping communities build a safer, more sustainable relationship with their natural surroundings.</p></div></div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark text-light py-4"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2"><span>MRRM · Meenachil River &amp; Rain Monitoring</span><div><a href="../service.html" class="text-light me-3">All initiatives</a><a href="../contact.html" class="text-light">Contact Bhoomika</a></div></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
