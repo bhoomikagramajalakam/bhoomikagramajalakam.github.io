@@ -39,6 +39,8 @@
         .mrrm-mission{height:100%;border-radius:1.25rem;background:var(--mrrm-deep);color:#fff;padding:2.25rem}
         .mrrm-mission h2,.mrrm-mission h3{color:#fff}
         .mrrm-commitment{border-radius:1.25rem;background:linear-gradient(115deg,#eaf5f1,#f4f8fa);padding:2.5rem}
+        .mrrm-video-frame{position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:1rem;background:#0F4229;box-shadow:0 8px 30px rgba(15,66,41,.12)}
+        .mrrm-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
         @media(max-width:767.98px){.mrrm-hero-content{padding-top:4rem;padding-bottom:4rem}.mrrm-section{padding-top:3.5rem;padding-bottom:3.5rem}.mrrm-subnav{overflow-x:auto;white-space:nowrap}.mrrm-subnav a{padding:.8rem .65rem;font-size:.9rem}}
     </style>
 </head>
@@ -60,10 +62,11 @@
             <h1 class="display-2 fw-bold mb-4">MRRM — Meenachil River &amp; Rain Monitoring</h1>
             <p class="lead mb-4">Community-powered observations, local knowledge, and digital tools for understanding rainfall and river conditions.</p>
             <a href="#about-mrrm" class="btn btn-light py-3 px-4">Discover MRRM <i class="fa fa-arrow-down ms-2" aria-hidden="true"></i></a>
+            <a href="https://mrrm.vercel.app/" class="btn btn-outline-light py-3 px-4 ms-sm-2 mt-2 mt-sm-0" target="_blank" rel="noopener noreferrer">Open MRRM Web App <i class="fas fa-external-link-alt ms-2" aria-hidden="true"></i></a>
         </div>
     </header>
     <nav class="mrrm-subnav" aria-label="On this page"><div class="container">
-        <a href="#about-mrrm">About</a><a href="#vision-mission">Vision &amp; mission</a><a href="#approach">Our approach</a><a href="#commitment">Our commitment</a>
+        <a href="#about-mrrm">About</a><a href="#vision-mission">Vision &amp; mission</a><a href="#mrrm-videos">Videos</a><a href="#approach">Our approach</a><a href="#commitment">Our commitment</a>
     </div></nav>
     <main>
         <section id="about-mrrm" class="container mrrm-section">
@@ -75,6 +78,20 @@
                     <p>Through the active participation of local communities and volunteers, MRRM supports the collection and study of rainfall and river-level observations across different locations. These observations help build a valuable record of local environmental conditions, supporting researchers, environmental organisations, and communities in understanding changing weather patterns and their potential impacts.</p>
                     <p>Recognising the importance of accessible and reliable information, MRRM has also embraced digitalisation through a dedicated web application that helps organise, maintain, and present collected observations. The GeoFinder application further supports geographical studies by helping identify locations accurately and obtain latitude and longitude coordinates, improving the geographical understanding of environmental observations.</p>
                     <p class="mb-0">At its heart, MRRM is about more than monitoring rainfall. It is about connecting people, knowledge, and environmental information to encourage informed decisions, strengthen preparedness, and contribute to the long-term protection of our rivers and natural resources.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mrrm-videos" class="container-fluid py-5" style="background:#f6f9f8">
+            <div class="container py-lg-3">
+                <div class="text-center mx-auto mb-5" style="max-width:680px">
+                    <p class="mrrm-section-kicker mb-2">Watch</p>
+                    <h2 class="display-5 mb-3">MRRM Videos</h2>
+                    <p class="mrrm-copy mb-0">Explore MRRM’s community environmental monitoring work.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6"><article class="h-100"><div class="mrrm-video-frame"><iframe src="https://www.youtube.com/embed/4_EG6Q5xy0g" title="MRRM video 1" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></article></div>
+                    <div class="col-lg-6"><article class="h-100"><div class="mrrm-video-frame"><iframe src="https://www.youtube.com/embed/2a0NhDSRpWE" title="MRRM video 2" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></article></div>
                 </div>
             </div>
         </section>
